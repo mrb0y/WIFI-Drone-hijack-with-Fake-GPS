@@ -67,7 +67,8 @@ SSHIp <SSH_IP>
 SSHUser <SSH_USER>
 SSHPassword <SSH_Password>
 ```
-## Collaborators
+## Launch the software
+
 Launch the software:
 ```
 python3 FYP_GUI_NoRoot.py
