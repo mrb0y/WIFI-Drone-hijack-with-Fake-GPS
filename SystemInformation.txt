@@ -1,0 +1,4 @@
+rootPassword <Root_Password>
+SSHIp <SSH_IP>
+SSHUser <SSH_USER>
+SSHPassword <SSH_Password>
