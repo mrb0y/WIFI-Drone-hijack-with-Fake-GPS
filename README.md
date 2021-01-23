@@ -7,6 +7,11 @@ Hong Kong Institute of Vocational Education (Chai Wan)
 
 Information and Network Security (IT114104) Final Year Project
 
+### Step 
+
+<img src="https://raw.githubusercontent.com/SunnyChan-code/WIFI-Drone-hijack-with-Fake-GPS/main/README_IMAGE/step.png" width="80%"></img> 
+
+
 ## Collaborators
 * **Alex Wong**     - *WIFI WPA/WPA2 hacking , Fake GPS and crack password*
 * **Cherry Zhang**  - *ROS (Parrot Bebop 2,DJI Tello) to take off , land down , take camera and open drone folder*
