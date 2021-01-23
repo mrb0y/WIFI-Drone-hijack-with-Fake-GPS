@@ -1,0 +1,26 @@
+
+{
+    "Comment no use ":"<NetworkCard> is for connect netword card now only use on ftp ,lock means the button will lock before the services on,Launch Services Enable if true will use the cmd ",
+
+    "Mac Address type":"A0143D",
+    "Company"         :"PARROT SA",
+    "Drone"           :"Parrot Bebop 2",
+
+    "Launch Services Enable":true,
+    "Launch Services Root"  :false,
+    "Launch Services"       :"roscore",
+
+    "Open Camera Root":false,
+    "Open Camera"     :"source ~/bebop_ws/devel/setup.bash;roslaunch bebop_tools bebop_nodelet_iv.launch",
+
+    "Take Off Root":true,
+    "Take Off"     :"source ~/bebop_ws/devel/setup.bash;rostopic pub bebop/takeoff std_msgs/Empty",
+
+    "Land Down Root":true,
+    "Land Down"     :"source ~/bebop_ws/devel/setup.bash;rostopic pub bebop/land std_msgs/Empty",
+
+    "FTP enable":true,
+    "FTP Root":false,
+    "FTP"     :"nautilus 'ftp://'$(nmap -T5 --open -p21 $(ip route |grep <NetworkCard> | awk '{print $1}')|grep 'rt f'|line 1|awk '{print $5}')"
+}
+

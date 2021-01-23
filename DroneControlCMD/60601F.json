@@ -1,0 +1,26 @@
+
+{
+    "Comment no use ":"<NetworkCard> is for connect netword card now only use on ftp ,lock means the button will lock before the services on,Launch Services Enable if true will use the cmd ",
+
+    "Mac Address type":"60601F",
+    "Company"         :"SZ DJI TECHNOLOGY CO.,LTD",
+    "Drone"           :"DJI tello",
+
+    "Launch Services Enable":false,
+    "Launch Services Root"  :false,
+    "Launch Services"       :"",
+
+    "Open Camera Root":false,
+    "Open Camera"     :"source ~/Tello_ws/devel/setup.bash;python -m tellopy.examples.keyboard_and_video",
+
+    "Take Off Root":false,
+    "Take Off"     :"xdotool search 'pygame window' windowactivate --sync key Tab",
+
+    "Land Down Root":false,
+    "Land Down"     :"xdotool search 'pygame window' windowactivate --sync keydown Down sleep 1 keyup Down key BackSpace",
+
+    "FTP enable":false,
+    "FTP Root":false,
+    "FTP"     :""
+}
+
