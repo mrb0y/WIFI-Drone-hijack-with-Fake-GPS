@@ -7,10 +7,6 @@ import signal, string,sys,requests,re
 import json
 
 ###########################
-#need to install nmap
-#SuperUser password: q
-
-#os.system('python3 PasswordManager.py')
 
 cmd = "grep rootPassword SystemInformation.txt |awk '{print $2}'"
 SysPasswd = str(os.popen(cmd).readlines())[2:-4]
