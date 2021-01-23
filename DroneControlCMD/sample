@@ -1,0 +1,24 @@
+{
+    "Comment no use ":"can add the comment ",
+
+    "Mac Address type":"<drone mac address such as "A0:14:3D:12:43:23" will get A0143D. A0143D also is the file name>",
+    "Company"         :"Drone Company",
+    "Drone"           :"Drone model",
+
+    "Launch Services Enable":<Enable the function only enter "false" or "true">,
+    "Launch Services Root"  :<Set the statment launch with root or not only enter "false" or "true">,
+    "Launch Services"       :<Enter the statment of the function like "roscore">,
+
+    "Open Camera Root":<Set the statment launch with root or not only enter "false" or "true">,
+    "Open Camera"     <Enter the statment of the function like "roscore">,
+
+    "Take Off Root":<Set the statment launch with root or not only enter "false" or "true">,
+    "Take Off"     :<Enter the statment of the function like "roscore">,
+
+    "Land Down Root":<Set the statment launch with root or not only enter "false" or "true">,
+    "Land Down"     :<Enter the statment of the function like "roscore">,
+
+    "FTP enable":<Enable the function only enter "false" or "true">,
+    "FTP Root":<Set the statment launch with root or not only enter "false" or true>,
+    "FTP"     :<Enter the statment of the function like "roscore">
+}
