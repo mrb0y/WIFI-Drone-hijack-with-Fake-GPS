@@ -35,17 +35,18 @@ Hardware
 Software 
 ``` 
 1. Ubuntu 16.04 desktop
-2. ROS ROS Kinetic (need to set up for each model of drone)
-3. a hackrf one
-4. Drone (for testing e set up (Parrot Bebop 2,DJI Tello)
-5. Python3 with tkinter , ttk , threading , os , time , subprocess ,
+2. Aircrack-ng (tried verison 1.5.2)
+3. ROS ROS Kinetic (need to set up for each model of drone)
+4. a hackrf one
+5. Drone (for testing e set up (Parrot Bebop 2,DJI Tello)
+6. Python3 with tkinter , ttk , threading , os , time , subprocess ,
                 csv , datetime , pyautogui , string , sys , requests,
                 re
-6. nmap    (Parrot Bebop 2 control)
-7. Mplayer (DJI tello control)
-8. xdotool (DJI tello control)
-9. hackrf (hackrf on drive)
-10.hashcat (for the server)
+7. nmap    (Parrot Bebop 2 control)
+8. Mplayer (DJI tello control)
+9. xdotool (DJI tello control)
+10.hackrf (hackrf on drive)
+11.hashcat (for the server)
 ```
 
 The ros of the drone:
